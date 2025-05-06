@@ -1,16 +1,13 @@
 ---
-
+import Layout from "@/layouts/Layout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Institut-Le-Rosey-CH</title>
-	</head>
-	<body>
-		<h1>Institut-Le-Rosey-CH</h1>
-	</body>
-</html>
+<Layout title="Institut-Le-Rosey-CH">
+  <div class="grid place-items-center min-h-screen p-8">
+    <section class="grid gap-y-2">
+      <h1 class="text-4xl font-bold tracking-wide">Institut-Le-Rosey-CH</h1>
+      <hr />
+      <p class="text-xl">The Institut-Le-Rosey-CH iGEM Team Wiki</p>
+    </section>
+  </div>
+</Layout>
